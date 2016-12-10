@@ -1,0 +1,26 @@
+{
+  "name": "phorax/pagebrowse",
+  "type": "typo3-cms-extension",
+  "description": "TYPO3 'pagebrowse' extension. Allows users to easily create a page browser in their extensions.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "pagebrowse"
+  ],
+  "homepage": "https://github.com/PHORAX/pagebrowse",
+  "license": [
+    "GPL-2.0"
+  ],
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.0"
+  },
+  "autoload": {
+    "classmap": [
+      "pi1/"
+    ]
+  },
+  "replace": {
+    "pagebrowse": "self.version",
+    "typo3-ter/pagebrowse": "self.version"
+  }
+}
